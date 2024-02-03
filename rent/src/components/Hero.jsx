@@ -1,7 +1,7 @@
 import React from 'react'
 import House from "../assets/h1.png"
 
-function hero() {
+function Hero() {
   return (
     <>
       <div className="flex flex-col md:flex-row items-center justify-center p-8 md:p-16 bg-[#141E15] text-white">
@@ -23,4 +23,4 @@ function hero() {
   )
 }
 
-export default hero
+export default Hero
