@@ -42,12 +42,12 @@ function Navbar() {
             <h1 className=''><span className='font-extrabold'>Rent</span>Home</h1>
             </div>
     <nav  className={` ${isMenuOpen ? 'flex  justify-center items-center h-screen' : ''}`}>
-     <ul className= {`flex   text-[#CDD4CC] font-semibold ${isMenuOpen ? ' max-md:flex-col' : 'max-md:hidden'}`}>
-        <li className='mx-8 hover:underline text-white'>Home</li>
-        <li className='mx-8 hover:underline'> About Us</li>
-        <li className='mx-8 hover:underline'> Services</li>
-        <li className='mx-8 hover:underline'>Blog</li>
-        <li className='mx-8 hover:underline'>Contact Us </li>
+     <ul className= {`flex   text-[#CDD4CC] font-semibold ${isMenuOpen ? '  max-md:flex-col' : 'max-md:hidden'}`}>
+        <li className='mx-8 max-md:my-5 hover:underline text-white'>Home</li>
+        <li className='mx-8 max-md:my-5 hover:underline'> About Us</li>
+        <li className='mx-8 max-md:my-5 hover:underline'> Services</li>
+        <li className='mx-8 max-md:my-5 hover:underline'>Blog</li>
+        <li className='mx-8 max-md:my-5 hover:underline'>Contact Us </li>
       </ul>
     </nav>
 
