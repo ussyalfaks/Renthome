@@ -6,7 +6,7 @@ function Hero() {
     <>
       <div className="flex flex-col md:flex-row items-center justify-center p-8 md:p-16 bg-[#141E15] text-white">
   <div className=" md:text-left lg:ml-40 ">
-    <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-loose">Your <br /> Rental Journey <br /> Begins Here</h1>
+    <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-6">Your <br /> Rental Journey <br /> Begins Here</h1>
     <p className="text-lg mb-8 capitalize">We make finding rentals easy, Effortless search, Endless Choice </p>
     <div className="flex space-x-4">
       <button className=" py-1 px-4 bg-[#FEA500] btn-outline font-normal rounded-2xl ">Rent Now</button>
