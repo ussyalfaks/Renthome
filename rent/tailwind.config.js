@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily :{
+        Messiri:['El Messiri', 'sans-serif']
+      },
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
