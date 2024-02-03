@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
+import { FcHome } from "react-icons/fc";
 
 function Navbar() {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ function Navbar() {
             </div>
     <nav  className={` ${isMenuOpen ? 'flex  justify-center items-center h-screen' : ''}`}>
      <ul className= {`flex   text-[#CDD4CC] font-semibold ${isMenuOpen ? '  max-md:flex-col' : 'max-md:hidden'}`}>
-        <li className='mx-8 max-md:my-5 hover:underline text-white'>Home</li>
+        <li className='mx-8 max-md:my-5 hover:underline text-white flex items-center justify-evenly'>Home <FcHome/> </li>
         <li className='mx-8 max-md:my-5 hover:underline'> About Us</li>
         <li className='mx-8 max-md:my-5 hover:underline'> Services</li>
         <li className='mx-8 max-md:my-5 hover:underline'>Blog</li>
