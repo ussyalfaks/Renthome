@@ -12,16 +12,13 @@ function App() {
 
   return (
     <>
-<Navbar />
+    <Navbar />
     <Hero/>
     <Aboutus/>
     <Services/>
     <Testimonial/>
     <Footer/>
-
 </>
-
-   
   )
 }
 
